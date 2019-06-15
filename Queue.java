@@ -1,30 +1,29 @@
 class Queue {
-   public static void main (String args [] ) {
+     public static void main(String args[]) {
+    char q[];
+    int putloc, getloc;
+    
 
-
-    private  char q [];
-    private int putloc,getloc;
-
-    Queue (int size) {
+    Queue (int .class);
      q = new char [size];
-      putloc = getloc =0;
-     }
-
-  void put (char ch) {
+      putloc = getloc = 0;
+     
+  voidput (char .class);
      if (putloc==q.length) {
-        System.out.println (" - Queue is full.");
+        System.out.println (" - Queue is full.") ;
          return;
-      }
+      
 
-     q [putloc++] =ch;
+     q[putloc++] = ch;
    }
-    char get() {
+    char get;
       if (getloc == putloc)  {
-          System.out.println (" - Queue is empty.");
+          System.out.println (" - Queue is empty.") ;
          return (char) 0;
-      }
+      
        
       return q[getloc++];
     }
-  }
+  
+
  
